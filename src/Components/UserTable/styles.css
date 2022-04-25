@@ -1,0 +1,42 @@
+.userTable_head {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid deepskyblue;
+}
+
+.userTable_container {
+    width: 60%;
+    background-color: white;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.userTable_head-item {
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.userTable_item {
+    display: flex;
+    padding-bottom: 15px;
+
+}
+
+.userTable_wrapper {
+    padding: 15px 0;
+}
+
+.fn_button {
+    transition: .3s all;
+    color: white;
+    background-color: deepskyblue;
+    padding: 9px 12px;
+    border-radius: 7px;
+    margin-right: 15px;
+}
+
+.fn_button:hover {
+    transition: .3s all;
+    background-color: #f59c07;
+}
